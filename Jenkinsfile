@@ -31,10 +31,10 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 // Update the Kubernetes deployment to use the new image
-                sh 'kubectl set image deployment/springboot-deployment container-0=dineshindupuri/sweassignment03:latest -n default'
+                sh 'kubectl set image deployment/sweassignment03 container-0=dineshindupuri/sweassignment03:latest -n default'
 
                 // Restart the Kubernetes deployment to apply the new image
-                sh 'kubectl rollout restart deployment/springboot-deployment -n default'
+                sh 'kubectl rollout restart deployment/sweassignment03 -n default'
             }
         }
     }
