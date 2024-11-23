@@ -20,7 +20,7 @@ pipeline {
                 sh 'rm -rf target/*.jar'
                 
                 // Build the Spring Boot application
-                sh './mvn clean package -DskipTests'
+                sh './mvnw clean package -DskipTests'
             }
         }
 
