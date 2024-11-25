@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.*;
 import com.group.sweassignment03.interfaces.SurveyInterface;
 import com.group.sweassignment03.model.Survey;
 @RestController
-@RequestMapping("/api/v2")
+@RequestMapping("/api/v1")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class SurveyController {
 
