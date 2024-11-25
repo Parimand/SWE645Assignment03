@@ -1,3 +1,13 @@
+//Group Details
+// Pavan Sai Gopinadh Reddy Arimanda G01478272
+// Venkat Dinesh Indupuri G01464737
+// Nemali Sudheer Reddy G01410008
+// Gunnampalli Datta Naga Vamseedhar G01478792
+
+// Entity class representing the studentsurvey table in the database.
+// It maps survey data fields to database columns and supports enum-based storage for specific fields.
+
+
 package com.group.sweassignment03.model;
 
 import com.group.sweassignment03.enums.InterestedSourceOption;

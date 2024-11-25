@@ -1,3 +1,13 @@
+//Group Details
+// Pavan Sai Gopinadh Reddy Arimanda G01478272
+// Venkat Dinesh Indupuri G01464737
+// Nemali Sudheer Reddy G01410008
+// Gunnampalli Datta Naga Vamseedhar G01478792
+
+// Centralized exception handler to handle validation errors, resource not found, and general exceptions.
+// Provides structured error responses for client APIs.
+
+
 package com.group.sweassignment03.exceptions;
 
 import com.group.sweassignment03.response.ErrorResponse;

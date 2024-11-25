@@ -1,3 +1,15 @@
+//Group Details
+// Pavan Sai Gopinadh Reddy Arimanda G01478272
+// Venkat Dinesh Indupuri G01464737
+// Nemali Sudheer Reddy G01410008
+// Gunnampalli Datta Naga Vamseedhar G01478792
+
+// MapStruct mapper to convert between PostStudentSurveyRequestDTO and Survey entity.
+// Automates mapping with support for custom transformations like lists and dates.
+
+
+
+
 package com.group.sweassignment03.mapper;
 
 import com.group.sweassignment03.DTO.PostStudentSurveyRequest;

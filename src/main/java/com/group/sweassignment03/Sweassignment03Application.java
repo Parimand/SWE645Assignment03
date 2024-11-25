@@ -1,3 +1,12 @@
+//Group Details
+// Pavan Sai Gopinadh Reddy Arimanda G01478272
+// Venkat Dinesh Indupuri G01464737
+// Nemali Sudheer Reddy G01410008
+// Gunnampalli Datta Naga Vamseedhar G01478792
+
+// The main entry point of the Spring Boot application. It initializes and starts the embedded server to run the application.
+
+
 package com.group.sweassignment03;
 
 import org.springframework.boot.SpringApplication;

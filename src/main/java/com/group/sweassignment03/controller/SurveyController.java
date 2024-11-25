@@ -1,3 +1,13 @@
+//Group Details
+// Pavan Sai Gopinadh Reddy Arimanda G01478272
+// Venkat Dinesh Indupuri G01464737
+// Nemali Sudheer Reddy G01410008
+// Gunnampalli Datta Naga Vamseedhar G01478792
+
+// REST controller to handle survey-related API endpoints (CRUD operations).
+// It interacts with the service layer to process requests and return responses.
+
+
 package com.group.sweassignment03.controller;
 
 import java.util.List;
@@ -10,8 +20,6 @@ import org.springframework.web.bind.annotation.*;
 
 import com.group.sweassignment03.interfaces.SurveyInterface;
 import com.group.sweassignment03.model.Survey;
-
-
 @RestController
 @RequestMapping("/api/v1")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
