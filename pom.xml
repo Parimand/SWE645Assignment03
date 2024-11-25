@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Pavan Sai Gopinadh Reddy Arimanda G01478272
+Venkat Dinesh Indupuri  G01464737
+Nemali Sudheer Reddy   G01410008
+Datta Naga Vamseedhar Gunnampalli  G01478792
+-->
+<!--
+This Maven `pom.xml` configures a Spring Boot project with dependencies for JPA, MySQL, MapStruct, and Lombok, along with the Spring Boot Maven plugin for building and packaging the application.
+It also defines the Java version as 17 and excludes Lombok from the final packaged artifact.
+-->
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
